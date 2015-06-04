@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+  
+  <test name="Generic Account Creation and Verification Test">
+    <classes>
+       <class name="isu.common.AccountCreationVerification" />
+    </classes>
+  </test>
+  <test name="Generic Recommendation test for Graduates">
+    <classes>
+       <class name="isu.common.GradCommonRecomm" />
+    </classes>
+  </test>
+  <test name="Generic Password Change test">
+    <classes>
+       <class name="isu.common.PasswordChange" />
+    </classes>
+  </test>
+  
+ 
+  <test name="Create Graduate Masters in Arts Application Test">
+    <classes>
+       <class name="isu.grad.GradMastersInArtsApp" />
+    </classes>
+  </test>
+  <test name="Create Graduate Masters in Music Application Test">
+    <classes>
+       <class name="isu.grad.GradMastersInMusicApp" />
+    </classes>
+  </test>
+  <test name="Maintenance of Graduate Masters in Arts Application Test">
+    <classes>
+       <class name="isu.grad.MaintainGradMastersInArtsApp" />
+    </classes>
+  </test>
+  <test name="Create Readmit Graduate Nursing Application Test">
+    <classes>
+       <class name="isu.grad.ReadmitGradNursingApplication" />
+    </classes>
+  </test>
+  
+  
+  <test name="Create Under Graduate Music Application Test">
+    <classes>
+       <class name="isu.undergrad.CreateUnderGradMusicApplication" />
+    </classes>
+  </test>
+  <test name="Maintain Readmit Under Graduate Music Application Test">
+    <classes>
+       <class name="isu.undergrad.MaintainReadmitUnderGradMusicApplication" />
+    </classes>
+  </test>
+  <test name="Maintain Transfer Under Graduate Music Application Test">
+    <classes>
+       <class name="isu.undergrad.MaintainTransferUnderGradMusicApplication" />
+    </classes>
+  </test>
+  <test name="Maintain Under Graduate Music Application Test">
+    <classes>
+       <class name="isu.undergrad.MaintainUnderGradMusicApplication" />
+    </classes>
+  </test>
+  <test name="Create Readmit Under Graduate Application Test">
+    <classes>
+       <class name="isu.undergrad.ReadmitUnderGradMusicApplication" />
+    </classes>
+  </test>
+   <test name="Create Transfer Under Graduate Music Application Test">
+    <classes>
+       <class name="isu.undergrad.TransferUnderGradMusicApplication" />
+    </classes>
+  </test>
+</suite>  
